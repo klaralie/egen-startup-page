@@ -1,0 +1,36 @@
+.newcolor {
+  color: #541f1f !important;
+}
+
+.newhover:hover {
+  background-color: #ffe5c0 !important;
+  border-color: #541f1f !important;
+  color: #541f1f;
+}
+
+.newhover:not(:hover) {
+  border-color: white !important;
+}
+
+h2:after {
+  content: "";
+  display: block;
+  background-color: #541f1f;
+  height: 3px;
+  margin: 20px 0;
+  width: 70px;
+}
+.newbg {
+  background-color: #ffe5c0;
+}
+
+.nyknapp {
+  background-color: #ffe5c0;
+  color: black;
+  border-color: #ffe5c0;
+}
+.nyknapp:hover {
+  background-color: #f5d29f;
+  border-color: #ffe5c0;
+  color: black;
+}
